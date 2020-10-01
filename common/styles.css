@@ -384,6 +384,9 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .bg-5{ background: url(../images/slider-5-450x600.jpg) no-repeat center; background-size: cover; }
 .bg-6{ background: url(../images/slider-6-450x600.jpg) no-repeat center; background-size: cover; }
 .dening{ background: url(../images/work.jpeg) no-repeat center; background-size: cover; }
+.client{ background: url(../images/cliente.jpg) no-repeat center; background-size: cover; }
+.bpmn{ background: url(../images/bpmn.jpg) no-repeat center; background-size: cover; }
+.er{ background: url(../images/er.png) no-repeat center; background-size: cover; }
 
 
 .bg-grad-layer-6:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
