@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Shisustemu LTDA</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,700" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="plugin-frameworks/bootstrap.css" rel="stylesheet">
+	
+	<link href="fonts/ionicons.css" rel="stylesheet">
+		
+	<link href="common/styles.css" rel="stylesheet">
+
+	<link rel="icon" type="image/png" href="images/icon.png"/>
+	
+	
+</head>
+<body>
+	
+<header>
+		<div class="bg-191">
+			<div class="container">	
+				<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+				
+					<ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+						<li><a class="pl-0 pl-sm-10" href="#">About</a></li>
+					</ul>
+					
+				</div><!-- top-menu -->
+			</div><!-- container -->
+		</div><!-- bg-191 -->
+		
+		<div class="container">
+			<a class="logo" href="index.html"><img src="images/logo-black.png" alt="Logo"></a>
+			
+			<a class="right-area src-btn" href="#" >
+				<i class="active src-icn ion-search"></i>
+				<i class="close-icn ion-close"></i>
+			</a>
+			<div class="src-form">
+				<form>
+					<input type="text" placeholder="Search here">
+					<button type="submit"><i class="ion-search"></i></a></button>
+				</form>
+			</div><!-- src-form -->
+			
+			<a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
+			
+			<ul class="main-menu" id="main-menu">
+				<li><a href="nosotros.html">¿QUIENES SOMOS?</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</div><!-- container -->
+	</header>
+	
+	
+	<section class="ptb-0">
+		<div class="mb-30 brdr-ash-1 opacty-5"></div>
+		<div class="container">
+			<a class="mt-10" href="index.html"><i class="mr-5 ion-ios-home"></i>Home<i class="mlr-10 ion-chevron-right"></i></a>
+			<a class="mt-10 color-ash" href="cripto.html">Seguridad</a>
+		</div><!-- container -->
+	</section>
+	
+	
+	<section>
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-md-12 col-lg-8">
+					<img src="images/lock.jpg" alt="">
+					<h3 class="mt-30"><b>Seguridad de nuestros datos</b></h3>
+					<ul class="list-li-mr-20 mtb-15">
+						<li>by <a href="#"><b>Grupo 18 </b></a> Oct 09, 2020</li>
+						<li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i>69,420</li>
+						<li><i class="color-primary mr-5 font-12 ion-chatbubbles"></i>xd</li>
+					</ul>
+					
+					<p><b>La red se ha vuelto más popular que nunca, por lo cual, enviar información confidencial se puede volver complicado con todos los ataques que se están llevando a cabo minuto a minuto. Es por eso que nosotros aplicamos algoritmos especializados para proteger todos sus archivos.</b></p>
+					
+					
+					<div class="quote-primary mtb-20">
+						<h5>"¿Acaso ocupan criptografía simétrica? No. Un mecanismo de llave simétrica es como enviar una caja fuerte a un destinatario, así solo este será el único capáz de ver su contenido, siempre y cuando sepa la misma combinación que se usó para cerrarla. Seguramente se preguntarán ¿cómo le hago llegar la llave a mi destinatario? Es fácil de ver que si el origen le grita la clave al destino, cualquiera puede llegar, interceptar el mensaje y robar su preciada información."</h5>
+					</div><!-- quote-primary -->
+
+					<p class="mtb-15">Nosotros vamos un paso más allá. Como destinatarios de la información somos quienes envían la caja fuerte abierta junto con su llave para cerrarla. Es así como los emisores se encargan de “encriptar” los mensajes utilizando la llave entregada. ¿Cómo es esto mejor si ahora todo el mundo sabe que estoy enviando algo? El secreto está en que sólo el destinatario (el que envió la caja abierta) tiene la llave para abrirla.</p>
+
+					<p class="mtb-15">Antes de continuar en la descripción de cómo usamos este algoritmo para proteger su información, estamos en la obligación de aclarar que RSA es un proceso que consume gran cantidad de recursos de cómputo y demora su tiempo en calcularse. Un precio bajo considerando la protección que se le da a sus documentos más importantes. </p>
+
+					<h3 class="mtb-15">¿Cómo funciona RSA?</h3>
+
+					<p class="mtb-15">Veamos, con un pequeño ejemplo, el cómo se implementa la creación de claves, el cifrado y descifrado de un mensaje. Básicamente es todo un proceso matemático que, en la práctica, al elegir los números correctos, la complejidad computacional del encriptado hace que sea casi que imposible descifrar los mensajes sin tener toda la información que maneja el destinatario.</p>
+
+					<h3 class="mtb-15">Creación de claves</h3>
+
+					<ol class="mtb-15">
+						<li>1. Se deben elegir dos números primos, por ejemplo, <b>p = 3</b> y <b>q = 11</b></li>
+						<li>2. Calcularemos un valor <b>n = p * q</b>, en nuestro caso, <b>n = 33</b></li>
+						<li>3. Con el valor anterior calculamos <b>z = (p - 1) * (q - 1)</b>, según lo anterior, nuestro <b>z = 20</b></li>
+					</ol>
+
+					<p class="mtb-15">Hasta aquí, estamos ejecutando una función llamada “Función Phi” ó “Fi de Euler”.</p>
+
+					<ol class="mtb-15">
+						<li>4. Ahora debemos elegir un número primo k, tal que k sea co-primo de z. Valga decir que entre “k” y “z” números enteros, no existe ningún factor primo en común.</li>
+					</ol>
+
+					<p class="mtb-15">En nuestro caso, tenemos varias opciones, pero elegiremos <b>k = 7</b> para simplificar los cálculos a modo de mantener la explicación lo más simple posible.</p>
+
+					<ol>
+						<li>5. Nuestra clave pública (la llave que recibe el emisor del mensaje junto a la caja), va a ser el conjunto de números <b>(n,k)</b></li>
+						<li>6. Ahora es turno de calcular la clave privada. Para ello se elige un número j que cumpla <b>k * j = 1 (mod z)</b></li>
+					</ol>
+
+					<p class="mtb-15">En el ejemplo:</p>
+
+					<p class="mtb-15"><b>7 * j = 1 (mod 20)</b>, es decir que se quiere un valor para el cual <b>(7 * j) / 20</b> nos dé resto 1</p>
+
+					<p class="mtb-15">Podríamos decir que el 21 nos da “algo” con resto 1, por lo que, para este caso en particular, <b>(7 * j) = 21</b>, por lo tanto <b>j = 3</b></p>
+
+					<p class="mtb-15">Y esa es nuestra clave privada, la cual no debe ser revelada <b>NUNCA</b></p>
+
+					<h3 class="mtb-15">Cifrando un mensaje</h3>
+
+					<p class="mtb-15">Sea <b>P</b> un mensaje en texto plano que deseamos cifrar, sólo necesitamos hacer <b>P ^ k = E (mod n)</b></p>
+
+					<p class="mtb-15">Donde <b>P</b> es el mensaje en texto plano, <b>n</b> y <b>k</b> las llaves públicas calculadas anteriormente y “<b>E</b>” el mensaje cifrado.</p>
+
+					<p class="mtb-15">Siguiendo con nuestro ejemplo:</p>
+
+					<p class="mtb-15"><b>14 ^7 = E (mod 33)</b>, así elevamos 14 a la potencia de 7, el cual es <b>105413504</b>, lo dividimos por 33 (n) obteniendo, 3194348.606 y calculamos el resto entero de la siguiente forma:</p>
+
+					<p class="mtb-15"><b>3194348.606 - 3194348 = 0.606</b> <- Obtenemos la parte decimal</p>
+
+					<p class="mtb-15"><b>0.606 * 33 = 19.998 ~ 20 </b></p>
+
+					<p class="mtb-15">Por lo tanto, <b>E = 20</b> ¡Que es nuestro texto cifrado!</p>
+
+					<p class="mtb-15">Al final, cualquier intermediario indeseado sólo verá el 20 junto a la clave pública <b>(n,k)</b> y, con esa información, no podrá obtener el valor de 14 en un tiempo útil.</p>
+
+					<h3 class="mtb-15">Descifrando el mensaje</h3>
+
+					<p class="mtb-15">Supongamos que somos el destinatario, con nuestra llave privada <b>(j = 3) y recibimos <b>E = 20 ¿Qué hacemos ahora? Realizamos la operación <b>E ^ j = P (mod n) y obtendremos <b>P, el mensaje en texto plano original.</p>
+
+					<p class="mtb-15">Veamos cómo funciona. Tenemos <b>20 ^ 3 = 8000</b>, ahora necesitamos encontrar un valor que resulta de dividir a 8000 por 33 (n) y que devuelva <b>P</b> como resto entero de la división.</p>
+
+					<p class="mtb-15">Por lo tanto, tenemos <b>8000 / 33 = 242,242242…</b> El resultado entero del cociente es <b>242 * 33 = 7986</b>. Por lo que el resto, <b>P</b>, nuestro mensaje original será <b>8000 - 7986 = 14</b></p>
+
+					<p class="mtb-15">¡Y listo!</p>
+
+					<p class="mtb-15">Como se dijo anteriormente, este es sólo un ejemplo para que sea capaz de ver cómo funciona el algoritmo RSA. En la práctica los primos elegidos son absurdamente grandes, los suficientes como para que la única forma de hacerlo caer es con ataques cuánticos. Lo cual, hasta el momento, aún se encuentra en un futuro lejano.</p>
+
+					<p class="mtb-15">Lo ideal es que los centros de TI se encarguen de generar las claves públicas y privadas. Así los centros responsables de enviar la información se encargan de encriptar sus mensajes para que, al momento de llegar a la central del equipo informático, pueda asegurarse de que los datos no vengan corrompidos por agentes externos. </p>
+
+					<h3 class="mtb-15">Fuentes</h3>
+
+					<ul class="mtb-15">
+						<li><a href="https://es.wikipedia.org/wiki/Números_coprimos" class="mtb-15">https://es.wikipedia.org/wiki/Números_coprimos</a></li><br>
+						<li><a href="https://juncotic.com/rsa-como-funciona-este-algoritmo" class="mtb-15">https://juncotic.com/rsa-como-funciona-este-algoritmo</a></li><br>
+						<li><a href="https://es.wikipedia.org/wiki/RSA" class="mtb-15">https://es.wikipedia.org/wiki/RSA</a></li>
+					</ul>
+
+					
+					<div class="float-left-right text-center mt-40 mt-sm-20">
+				
+			</div><!-- row -->
+			
+		</div><!-- container -->
+	</section>
+	
+	
+	<footer class="bg-191 color-ccc">
+		
+		<div class="container">
+			<div class="pt-50 pb-20 pos-relative">
+				<div class="abs-tblr pt-50 z--1 text-center">
+					<div class="h-80 pos-relative"><img class="opacty-1 h-100 w-auto" src="images/map.png" alt=""></div>
+				</div>
+				<div class="row">
+				
+					<div class="col-sm-4">
+						<div class="mb-30">
+							<a href="#"><img src="images/logo-white.png"></a>
+							<p class="mtb-20 color-ccc">Blog grupo 18, Sistemas de Información, 2020-2</p>
+							<p class="mtb-20 color-ccc">Imágenes royalty-free de picjumbo</p>
+							<p class="color-ash"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+						</div><!-- mb-30 -->
+					</div><!-- col-md-4 -->
+					
+					
+				</div><!-- row -->
+			</div><!-- ptb-50 -->
+			
+			<div class="brdr-ash-1 opacty-2"></div>
+			
+			<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+			
+				<ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+					<li><a class="pl-0 pl-sm-10" href="#">Terms & Conditions</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Jobs advertising</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+				<ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+					<li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+					<li><a href="#"><i class="ion-social-google"></i></a></li>
+					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+					<li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
+				</ul>
+				
+			</div><!-- oflow-hidden -->
+		</div><!-- container -->
+	</footer>
+	
+	<!-- SCIPTS -->
+	
+	<script src="plugin-frameworks/jquery-3.2.1.min.js"></script>
+	
+	<script src="plugin-frameworks/tether.min.js"></script>
+	
+	<script src="plugin-frameworks/bootstrap.js"></script>
+	
+	<script src="common/scripts.js"></script>
+	
+</body>
+</html>
