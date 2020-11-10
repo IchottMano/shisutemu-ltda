@@ -388,6 +388,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .bpmn{ background: url(../images/bpmn.jpg) no-repeat center; background-size: cover; }
 .er{ background: url(../images/er.png) no-repeat center; background-size: cover; }
 .lock{ background: url(../images/lock.jpg) no-repeat center; background-size: cover; }
+.seven{ background: url(../images/seven.jpg) no-repeat center; background-size: cover; }
 
 
 .bg-grad-layer-6:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
