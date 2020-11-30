@@ -389,6 +389,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .er{ background: url(../images/er.png) no-repeat center; background-size: cover; }
 .lock{ background: url(../images/lock.jpg) no-repeat center; background-size: cover; }
 .seven{ background: url(../images/seven.jpg) no-repeat center; background-size: cover; }
+.aas{ background: url(../images/aas.png) no-repeat center; background-size: cover; }
 
 
 .bg-grad-layer-6:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
@@ -597,6 +598,7 @@ section{ padding: 50px 0; }
 .h-100{ height: 100%!important; }
 
 .h-1-4 { height:  25%!important; }
+.h-2-4 { height:  50%!important; }
 .h-1-3 { height:  33.33%!important; }
 .h-2-3 { height:  66.666%!important; }
 .h-3-4 { height:  75%!important; }
